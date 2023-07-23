@@ -1,1 +1,255 @@
-/* место для вашего кода */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 293px;
+  font-size: 18px;
+}
+.width {
+  width: 1340px;
+  margin: 0 auto;
+  
+}
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 109px;
+}
+.nav {
+  display: flex;
+  font-size: 18px;
+}
+.nav li {
+  list-style-type: circle;
+  margin-left: 13px;
+}
+.nav li:first-child {
+  list-style-type: none;
+  margin-left: -1px;
+}
+.nav a {
+  color:black;
+}
+.line_item {
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+}
+.nav_item_no_bullit {
+  list-style-type: none;
+  text-decoration-line: none; 
+}
+.header_logo {
+  display: flex;
+  justify-content: center;
+}
+.header_logo img {
+  position: absolute;
+  width: 148px;
+  height: 105px;
+}
+.header_address li {
+  width: 240px;
+  list-style-type: none;
+  line-height: 1.3;
+}
+
+/* ------БАННЕР------------------------------------------------------------- */
+.cover { 
+  background-image: url(/images/cover.jpg);
+  background-size: 1440px 100%;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+.overlay {
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.cover_main {
+  position: relative;
+  width: 100%;
+  height: 757px;
+}
+.cover_text_block {
+  position: absolute;
+  margin-top: 166px;
+  width: 100%;
+  height: 355px;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+.cover_text_first {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 115px;
+}
+.cover_text_second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+}
+.cover_text_third {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+}
+.last_letter {
+  margin-left: 70px;
+}
+.first_letter {
+  margin-right: 70px; 
+}
+.cover_bottom_block {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  height: 52px;
+  color: white;
+  font-size: 22px;
+}
+.cover_bottom_block button {
+  padding-left:32px;
+  padding-right: 32px;
+  height: 100%;
+  background-color: transparent; 
+  cursor: pointer;
+  border: 1px solid white;
+  font-weight: normal;
+  margin-left: 78px;
+  color: white;
+  font-size: 22px;
+}
+
+/*ЛОТЫ*/
+.lots {
+  margin-top: 180px;
+  font-size: 40px;
+}
+h2 {
+  margin-left: 40px;
+}
+.lots_card_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  width: 100%;
+  height: 450px;
+}
+.lot_element {
+  position: relative;
+  display: flex;
+  width: 430px;
+  height: 450px;
+  align-items: center;
+}
+.lot_element h3 {
+  font-size: 22px;
+}
+.lot_element p {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.lot_element_width {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+  color:white; 
+}
+.card_one {
+  background-image: url(/images/card-lot-01.jpg);
+  background-size:100% 100%;
+}
+.card_two {
+  background-image: url(/images/card-lot-02.jpg);
+  background-size:100% 100%;
+}
+.card_three {
+  background-image: url(/images/card-lot-03.jpg);
+  background-size:100% 100%;
+}
+.lot_more {
+  color: black;
+  font-size: 20px;
+}
+
+/*ОБ АУКЦИОНЕ*/
+.about {
+  margin-top: 180px;
+}
+.about_main {
+  display: flex;
+  position: relative;
+  height: 487px;
+}
+.about_logo {
+  width: 430px;
+  height: 240px;
+}
+.about_logo img {
+  display: block;
+  margin: 0 auto;
+}
+.about_text {
+  position: absolute;
+  width: 885px;
+  font-size: 20px;
+  bottom: 0;
+  right: 0;
+}
+.about_text h2 {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+.text_first {
+  margin-bottom: 25px;
+}
+footer {
+  margin-top: 180px;
+  margin-bottom: 90px;
+}
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_nav {
+  text-align: center;
+  font-size: 18px;
+}
+.footer_social_list img {
+  width: 48px;
+}
+.footer_social_list {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
