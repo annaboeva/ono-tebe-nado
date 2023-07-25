@@ -1,1 +1,1 @@
-git@github.com:annaboeva/ono-tebe-nado.git
+https://github.com/annaboeva/ono-tebe-nado.git
