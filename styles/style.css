@@ -9,22 +9,21 @@ header {
   display: flex;
   align-items: center;
   width: 100%;
-  min-height: 293px;
   font-size: 1.125rem;
+  padding-top: 92px;
+  padding-bottom: 92px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
 }
 .width {
   width: 1340px;
   margin: 0 auto;
 }
-.header_menu {
+.nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-height: 109px; 
-}
-.nav ul{
-  display: flex;
 }
 .nav li {
   list-style-type: circle;
@@ -35,15 +34,11 @@ header {
   margin-left: -1px;
 }
 .nav a {
-  color:black;
+  color: black;
 }
 .line_item {
   text-decoration-line: underline;
   text-underline-offset: 5px;
-}
-.line_item_address { 
-  text-decoration-line: underline;
-  text-underline-offset: 4px;
 }
 .nav_item_no_bullit {
   list-style-type: none;
@@ -52,9 +47,10 @@ header {
 .header_logo {
   max-width: 148px; 
   max-height: 105px; 
-  margin-right: 7.2vw;
+  margin-right: 90px;
+  
 }
-.header_address{
+.header_address {
   min-width: 240px; 
   font-size: 1.125rem; 
 }
@@ -88,45 +84,34 @@ header {
 .cover_text_block {
   position: relative; 
   width: 100%;
-  max-height: 355px; 
   color: white;
   font-size: 100px;
   font-weight: bold;
   padding-top: 166px; 
-}
-.cover_text_first{
-  letter-spacing: 30px;
-}
-.cover_text_second{
-  letter-spacing: 19px; 
-}
-.last_letter{
-  margin-left: 32px;
-}
-.cover_text_first {
+} 
+.cover_text_left {
   display: flex;
   justify-content: start;
   align-items: center;
   width: 100%;
-  max-height: 115px;
   letter-spacing: 40px;
+  margin-left: 55px;
 }
-.cover_text_second {
+.cover_text_center {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-height: 100px;
   margin-left: -19px;
   margin-top: 20px;
+  margin-bottom: 40px;
   letter-spacing: 40px;
 }
-.cover_text_third {
+.cover_text_right {
   display: flex;
   justify-content: end;
   align-items: center;
   width: 100%;
-  max-height: 100px; 
   margin-top: 20px;
   letter-spacing: 40px;
 }
@@ -143,23 +128,24 @@ header {
   position: relative; 
   bottom: 50px;
   width: 100%;
-  min-height: 52px;
   color: white;
 }
-.cover_bottom_block p{ 
-  
+.cover_bottom_block p {  
   font-size: 1.375rem;
   word-spacing: 1.1rem;
 }
 .cover_bottom_block button {
-  padding-left:32px;
+  padding-left: 32px;
   padding-right: 32px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   height: 100%;
   background-color: transparent; 
   cursor: pointer;
   border: 1px solid white;
   font-weight: normal;
   margin-left: 78px;
+  margin-right: 50px;
   color: white;
   font-size: 1.375rem;
 }
@@ -174,17 +160,8 @@ h2 {
   margin-bottom: 27px;
   font-size: 2.5rem; 
   font-weight: bold;
-  
 }
-.lots_card_list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 27px;
-  width: 100%;
-  min-height: 450px; 
-  flex-wrap: wrap;
-  }
-.lots_card_list a{
+.lots_card_list a {
   text-decoration: underline;
 }
 .lots_card_list {
@@ -198,7 +175,6 @@ h2 {
   position: relative;
   display: flex;
   width: 430px;
-  min-height: 450px;
   align-items: center;
 }
 .lot_element_width {
@@ -206,7 +182,7 @@ h2 {
   max-width: 350px; 
   min-height: 350px; 
   margin: auto; 
-  color:white;
+  color: white;
   display: flex; 
   flex-wrap: wrap; 
   align-content: space-between; 
@@ -227,15 +203,16 @@ h2 {
 }
 .card_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size:100% 100%;
+  background-size: 100% 100%;
 }
 .card_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size:100% 100%;
+  background-size: 100% 100%;
 }
 .card_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size:100% 100%;
+  background-size: 100% 100%;
+  min-width: 430px;
 }
 .lot_more {
   display: block;
@@ -249,7 +226,6 @@ h2 {
 .about {
   margin-top: 180px;
   display: flex;
-  min-height: 487px; 
 }
 .about_logo {
   display: flex; 
@@ -262,7 +238,6 @@ h2 {
 }
 .about_text {
   font-size: 1.25rem;
-  max-height: 388px;
   margin-top: 100px;
   display: flex; 
   flex-wrap: wrap; 
@@ -277,7 +252,7 @@ h2 {
   margin-top: 71px; 
   margin-bottom: 25px; 
 }
-.about_text p{ 
+.about_text p { 
   margin-left: 25px;
   font-size: 1.25rem;
   line-height: 1.15; 
@@ -290,7 +265,6 @@ h2 {
   margin-bottom: 90px;
   display: flex;
   justify-content: space-between; 
-  min-height: 97px;
 }
 .footer_nav li {
   text-align: center;
@@ -305,4 +279,13 @@ h2 {
   justify-content: space-between;
   min-width: 240px; 
   list-style-type: none;
+}
+.footer_address {
+  min-width: 240px; 
+  font-size: 1.125rem; 
+}
+.footer_address li {
+  list-style-type: none;
+  line-height: 1.34;
+  font-weight: 400;
 }
