@@ -3,13 +3,15 @@
 *::after {
   box-sizing: border-box;
 }
+html,body{
+  width: 100%;
+}
 
 html{
   font-size: 16px;
 }
 
 body {
-  min-width: 1100px;
   margin: 0;
   font-family: Raleway, sans-serif;
 }
